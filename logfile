@@ -1,0 +1,17 @@
+2020-09-10 21:13:02.799 EDT [35189] LOG:  starting PostgreSQL 12.4 on x86_64-apple-darwin19.5.0, compiled by Apple clang version 11.0.3 (clang-1103.0.32.62), 64-bit
+2020-09-10 21:13:02.800 EDT [35189] LOG:  listening on IPv6 address "::1", port 5432
+2020-09-10 21:13:02.800 EDT [35189] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-09-10 21:13:02.801 EDT [35189] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-09-10 21:13:02.809 EDT [35190] LOG:  database system was shut down at 2020-09-10 21:12:53 EDT
+2020-09-10 21:13:02.812 EDT [35189] LOG:  database system is ready to accept connections
+2020-09-10 21:29:31.914 EDT [35480] FATAL:  database "petproject" does not exist
+2020-09-10 21:30:15.021 EDT [35495] FATAL:  database "dog" does not exist
+2020-09-10 21:30:21.822 EDT [35498] FATAL:  role "root" does not exist
+2020-09-10 21:30:27.533 EDT [35500] FATAL:  database "dog" does not exist
+2020-09-11 10:18:45.266 EDT [35189] LOG:  received smart shutdown request
+2020-09-11 10:18:45.271 EDT [35189] LOG:  background worker "logical replication launcher" (PID 35196) exited with exit code 1
+2020-09-11 10:19:31.595 EDT [35189] LOG:  received fast shutdown request
+2020-09-11 10:19:31.595 EDT [35189] LOG:  aborting any active transactions
+2020-09-11 10:19:31.595 EDT [36898] FATAL:  terminating connection due to administrator command
+2020-09-11 10:19:31.598 EDT [35191] LOG:  shutting down
+2020-09-11 10:19:31.616 EDT [35189] LOG:  database system is shut down
